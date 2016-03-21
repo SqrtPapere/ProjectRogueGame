@@ -62,6 +62,3 @@ void Elf::walk()
     
 }
 
-//piuytreasdfghj
-
-//prova2
