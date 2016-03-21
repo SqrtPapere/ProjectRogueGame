@@ -13,7 +13,7 @@
 		A5157CD31C9F2BA100BDF59B /* Ground.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5157CD11C9F2BA100BDF59B /* Ground.cpp */; };
 		A5157CD61C9F4A8300BDF59B /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5157CD41C9F4A8300BDF59B /* Music.cpp */; };
 		A5157CD91C9F511800BDF59B /* GrassGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5157CD71C9F511800BDF59B /* GrassGround.cpp */; };
-		A7C3558B1CA0392100637823 /* BrickGroung.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7C355891CA0392100637823 /* BrickGroung.cpp */; };
+		A7C3558B1CA0392100637823 /* BrickGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7C355891CA0392100637823 /* BrickGround.cpp */; };
 		A7C3558E1CA03E0700637823 /* SandGround.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7C3558C1CA03E0600637823 /* SandGround.cpp */; };
 /* End PBXBuildFile section */
 
@@ -30,9 +30,9 @@
 		A5157CD41C9F4A8300BDF59B /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
 		A5157CD51C9F4A8300BDF59B /* Music.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Music.h; sourceTree = "<group>"; };
 		A5157CD71C9F511800BDF59B /* GrassGround.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = GrassGround.cpp; sourceTree = "<group>"; };
-		A5157CD81C9F511800BDF59B /* GrassGround.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GrassGround.h; sourceTree = "<group>"; };
-		A7C355891CA0392100637823 /* BrickGroung.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickGroung.cpp; sourceTree = "<group>"; };
-		A7C3558A1CA0392100637823 /* BrickGroung.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickGroung.hpp; sourceTree = "<group>"; };
+		A5157CD81C9F511800BDF59B /* GrassGround.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = GrassGround.hpp; sourceTree = "<group>"; };
+		A7C355891CA0392100637823 /* BrickGround.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BrickGround.cpp; sourceTree = "<group>"; };
+		A7C3558A1CA0392100637823 /* BrickGround.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = BrickGround.hpp; sourceTree = "<group>"; };
 		A7C3558C1CA03E0600637823 /* SandGround.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = SandGround.cpp; sourceTree = "<group>"; };
 		A7C3558D1CA03E0700637823 /* SandGround.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = SandGround.hpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -74,12 +74,12 @@
 				A5157CC71C9F24CD00BDF59B /* Elf.cpp */,
 				A5157CD21C9F2BA100BDF59B /* Ground.h */,
 				A5157CD11C9F2BA100BDF59B /* Ground.cpp */,
-				A5157CD81C9F511800BDF59B /* GrassGround.h */,
+				A5157CD81C9F511800BDF59B /* GrassGround.hpp */,
 				A5157CD71C9F511800BDF59B /* GrassGround.cpp */,
-				A7C355891CA0392100637823 /* BrickGroung.cpp */,
+				A7C355891CA0392100637823 /* BrickGround.cpp */,
 				A7C3558C1CA03E0600637823 /* SandGround.cpp */,
 				A7C3558D1CA03E0700637823 /* SandGround.hpp */,
-				A7C3558A1CA0392100637823 /* BrickGroung.hpp */,
+				A7C3558A1CA0392100637823 /* BrickGround.hpp */,
 				A5157CD51C9F4A8300BDF59B /* Music.h */,
 				A5157CD41C9F4A8300BDF59B /* Music.cpp */,
 				A5157CB21C9F027600BDF59B /* Resources */,
@@ -188,7 +188,7 @@
 			files = (
 				A5157CD61C9F4A8300BDF59B /* Music.cpp in Sources */,
 				A5157CB11C9F027600BDF59B /* main.cpp in Sources */,
-				A7C3558B1CA0392100637823 /* BrickGroung.cpp in Sources */,
+				A7C3558B1CA0392100637823 /* BrickGround.cpp in Sources */,
 				A5157CC81C9F24CD00BDF59B /* Elf.cpp in Sources */,
 				A7C3558E1CA03E0700637823 /* SandGround.cpp in Sources */,
 				A5157CD31C9F2BA100BDF59B /* Ground.cpp in Sources */,
