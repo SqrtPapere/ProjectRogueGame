@@ -55,8 +55,7 @@ void Elf::walk()
             }
     
     playersprite.setTextureRect(sf::IntRect(source.x*32,source.y*32,32,32));
-    //grass1Sprite.setTextureRect(sf::IntRect(0, screenDimensions.y, screenDimensions.x, screenDimensions.y));
-    
+        
     updateFrame = false;
     
     

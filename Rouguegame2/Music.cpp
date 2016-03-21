@@ -9,6 +9,6 @@ void Music::playMusic(){
         std::cout<<"soundtrack not found"<<std::endl;
     
     sound.setBuffer(soundtrack);
-    //sound.play();
+    sound.play();
     sound.setVolume(20);
 }
