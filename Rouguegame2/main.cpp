@@ -12,7 +12,7 @@
 
 #include "Elf.h"
 #include "Music.h"
-#include "GrassGround.h"
+#include "GrassGround.hpp"
 
 
 int main()
