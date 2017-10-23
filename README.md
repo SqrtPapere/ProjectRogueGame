@@ -12,7 +12,7 @@ Open the Xcode Project: Roguemon  2.0.xcodeproj
 
 Press the Build button.
 
-Now in Roguemon 2.0 -> Products -> Roguemon 2.0app press “Show in Finder”
+Now in Roguemon 2.0 -> Products -> Roguemon 2.0app right click and press “Show in Finder”
 
 [![Screen_Shot_2017-10-23_at_17.57.21.png](https://s1.postimg.org/3ofla9bidb/Screen_Shot_2017-10-23_at_17.57.21.png)](https://postimg.org/image/3dsrh3wa7v/)
 
