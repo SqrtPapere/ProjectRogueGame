@@ -7,6 +7,6 @@ void Music::playMusic(int m){
     if(!soundtrack.loadFromFile(file))//carico soundtrack
         std::cout<<m<<" not found"<<std::endl;
     sound.setBuffer(soundtrack);
-    //sound.play();
+    sound.play();
     sound.setVolume(30);
 }
