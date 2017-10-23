@@ -1,0 +1,441 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A5056A4D1D1E958100A57966 /* EnemyStrategy2.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5056A4B1D1E958100A57966 /* EnemyStrategy2.cpp */; };
+		A5056A501D1E97BF00A57966 /* EnemyStrategy3.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5056A4E1D1E97BF00A57966 /* EnemyStrategy3.cpp */; };
+		A5056A531D1E9A6700A57966 /* EnemyStrategy4.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5056A511D1E9A6700A57966 /* EnemyStrategy4.cpp */; };
+		A515710E1D1DA46D00FAEBC7 /* AbstractStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515710C1D1DA46D00FAEBC7 /* AbstractStrategy.cpp */; };
+		A51571111D1DA4D400FAEBC7 /* EnemyStrategy.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A515710F1D1DA4D400FAEBC7 /* EnemyStrategy.cpp */; };
+		A54A71501D257A2400C1716E /* BattleLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54A714F1D257A2400C1716E /* BattleLoop.cpp */; };
+		A54A71521D257DC300C1716E /* MenuLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54A71511D257DC300C1716E /* MenuLoop.cpp */; };
+		A54A71541D257E6500C1716E /* EndLoop.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A54A71531D257E6500C1716E /* EndLoop.cpp */; };
+		A56810D61CC6288B00A92F4C /* Druid.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56810D41CC6288B00A92F4C /* Druid.cpp */; };
+		A56810D91CC6291900A92F4C /* Paladin.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A56810D71CC6291900A92F4C /* Paladin.cpp */; };
+		A59744861CB8508300517644 /* CharacterFactory.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A59744841CB8508300517644 /* CharacterFactory.cpp */; };
+		A5E980F41CCBB49F00AABF3A /* Map.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E980F21CCBB49F00AABF3A /* Map.cpp */; };
+		A5E980F71CCBD38900AABF3A /* Music.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5E980F51CCBD38900AABF3A /* Music.cpp */; };
+		A5F272FA1CCFADFF005B26F3 /* MainCharacter.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A5F272F81CCFADFF005B26F3 /* MainCharacter.cpp */; };
+		A7FEA9341CB6AB850036ED36 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7FEA9331CB6AB850036ED36 /* main.cpp */; };
+		A7FEA9451CB6ADEC0036ED36 /* Character.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7FEA9431CB6ADEC0036ED36 /* Character.cpp */; };
+		A7FEA9481CB6AE160036ED36 /* Elf.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7FEA9461CB6AE160036ED36 /* Elf.cpp */; };
+		A7FEA94B1CB6AE3C0036ED36 /* TileMap.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7FEA9491CB6AE3C0036ED36 /* TileMap.cpp */; };
+		A7FEA94E1CB6AE660036ED36 /* Monster.cpp in Sources */ = {isa = PBXBuildFile; fileRef = A7FEA94C1CB6AE660036ED36 /* Monster.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A5056A4B1D1E958100A57966 /* EnemyStrategy2.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyStrategy2.cpp; sourceTree = "<group>"; };
+		A5056A4C1D1E958100A57966 /* EnemyStrategy2.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyStrategy2.hpp; sourceTree = "<group>"; };
+		A5056A4E1D1E97BF00A57966 /* EnemyStrategy3.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyStrategy3.cpp; sourceTree = "<group>"; };
+		A5056A4F1D1E97BF00A57966 /* EnemyStrategy3.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyStrategy3.hpp; sourceTree = "<group>"; };
+		A5056A511D1E9A6700A57966 /* EnemyStrategy4.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyStrategy4.cpp; sourceTree = "<group>"; };
+		A5056A521D1E9A6700A57966 /* EnemyStrategy4.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyStrategy4.hpp; sourceTree = "<group>"; };
+		A515710C1D1DA46D00FAEBC7 /* AbstractStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = AbstractStrategy.cpp; sourceTree = "<group>"; };
+		A515710D1D1DA46D00FAEBC7 /* AbstractStrategy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = AbstractStrategy.hpp; sourceTree = "<group>"; };
+		A515710F1D1DA4D400FAEBC7 /* EnemyStrategy.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EnemyStrategy.cpp; sourceTree = "<group>"; };
+		A51571101D1DA4D400FAEBC7 /* EnemyStrategy.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EnemyStrategy.hpp; sourceTree = "<group>"; };
+		A527A3D41CC7D16C00D849A3 /* MenuLoop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MenuLoop.hpp; sourceTree = "<group>"; };
+		A527A3D61CC7E5A700D849A3 /* Constants.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Constants.hpp; sourceTree = "<group>"; };
+		A54A714F1D257A2400C1716E /* BattleLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = BattleLoop.cpp; sourceTree = "<group>"; };
+		A54A71511D257DC300C1716E /* MenuLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MenuLoop.cpp; sourceTree = "<group>"; };
+		A54A71531D257E6500C1716E /* EndLoop.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = EndLoop.cpp; sourceTree = "<group>"; };
+		A56810D41CC6288B00A92F4C /* Druid.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Druid.cpp; sourceTree = "<group>"; };
+		A56810D51CC6288B00A92F4C /* Druid.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Druid.hpp; sourceTree = "<group>"; };
+		A56810D71CC6291900A92F4C /* Paladin.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Paladin.cpp; sourceTree = "<group>"; };
+		A56810D81CC6291900A92F4C /* Paladin.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Paladin.hpp; sourceTree = "<group>"; };
+		A59744841CB8508300517644 /* CharacterFactory.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = CharacterFactory.cpp; sourceTree = "<group>"; };
+		A59744851CB8508300517644 /* CharacterFactory.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = CharacterFactory.hpp; sourceTree = "<group>"; };
+		A59E6B2A1CDE20BF000155C2 /* BattleLoop.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = BattleLoop.hpp; sourceTree = "<group>"; };
+		A5E980EF1CCBB30000AABF3A /* Observer.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Observer.hpp; sourceTree = "<group>"; };
+		A5E980F11CCBB35C00AABF3A /* Subject.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = Subject.hpp; sourceTree = "<group>"; };
+		A5E980F21CCBB49F00AABF3A /* Map.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Map.cpp; sourceTree = "<group>"; };
+		A5E980F31CCBB49F00AABF3A /* Map.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Map.hpp; sourceTree = "<group>"; };
+		A5E980F51CCBD38900AABF3A /* Music.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Music.cpp; sourceTree = "<group>"; };
+		A5E980F61CCBD38900AABF3A /* Music.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Music.hpp; sourceTree = "<group>"; };
+		A5F272F81CCFADFF005B26F3 /* MainCharacter.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = MainCharacter.cpp; sourceTree = "<group>"; };
+		A5F272F91CCFADFF005B26F3 /* MainCharacter.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = MainCharacter.hpp; sourceTree = "<group>"; };
+		A5F868461CE1F1D300691692 /* EndLoop.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = EndLoop.hpp; sourceTree = "<group>"; };
+		A7F728FF1CDBE07200B0FC32 /* Maps.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Maps.hpp; sourceTree = "<group>"; };
+		A7FEA92B1CB6AB850036ED36 /* Roguemon  2.0.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Roguemon  2.0.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7FEA92F1CB6AB850036ED36 /* Roguemon  2.0-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Roguemon  2.0-Info.plist"; sourceTree = "<group>"; };
+		A7FEA9331CB6AB850036ED36 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		A7FEA9431CB6ADEC0036ED36 /* Character.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Character.cpp; sourceTree = "<group>"; };
+		A7FEA9441CB6ADEC0036ED36 /* Character.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Character.hpp; sourceTree = "<group>"; };
+		A7FEA9461CB6AE160036ED36 /* Elf.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Elf.cpp; sourceTree = "<group>"; };
+		A7FEA9471CB6AE160036ED36 /* Elf.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Elf.hpp; sourceTree = "<group>"; };
+		A7FEA9491CB6AE3C0036ED36 /* TileMap.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = TileMap.cpp; sourceTree = "<group>"; };
+		A7FEA94A1CB6AE3C0036ED36 /* TileMap.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = TileMap.hpp; sourceTree = "<group>"; };
+		A7FEA94C1CB6AE660036ED36 /* Monster.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Monster.cpp; sourceTree = "<group>"; };
+		A7FEA94D1CB6AE660036ED36 /* Monster.hpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.h; path = Monster.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7FEA9271CB6AB850036ED36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7FEA9211CB6AB850036ED36 = {
+			isa = PBXGroup;
+			children = (
+				A7FEA92D1CB6AB850036ED36 /* Roguemon  2.0 */,
+				A7FEA92C1CB6AB850036ED36 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7FEA92C1CB6AB850036ED36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEA92B1CB6AB850036ED36 /* Roguemon  2.0.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7FEA92D1CB6AB850036ED36 /* Roguemon  2.0 */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEA9331CB6AB850036ED36 /* main.cpp */,
+				A7F728FF1CDBE07200B0FC32 /* Maps.hpp */,
+				A527A3D61CC7E5A700D849A3 /* Constants.hpp */,
+				A5E980EF1CCBB30000AABF3A /* Observer.hpp */,
+				A5E980F31CCBB49F00AABF3A /* Map.hpp */,
+				A5E980F21CCBB49F00AABF3A /* Map.cpp */,
+				A59744851CB8508300517644 /* CharacterFactory.hpp */,
+				A59744841CB8508300517644 /* CharacterFactory.cpp */,
+				A54A714F1D257A2400C1716E /* BattleLoop.cpp */,
+				A59E6B2A1CDE20BF000155C2 /* BattleLoop.hpp */,
+				A5E980F61CCBD38900AABF3A /* Music.hpp */,
+				A5E980F51CCBD38900AABF3A /* Music.cpp */,
+				A5E980F11CCBB35C00AABF3A /* Subject.hpp */,
+				A515710D1D1DA46D00FAEBC7 /* AbstractStrategy.hpp */,
+				A515710C1D1DA46D00FAEBC7 /* AbstractStrategy.cpp */,
+				A51571101D1DA4D400FAEBC7 /* EnemyStrategy.hpp */,
+				A515710F1D1DA4D400FAEBC7 /* EnemyStrategy.cpp */,
+				A5056A4C1D1E958100A57966 /* EnemyStrategy2.hpp */,
+				A5056A4B1D1E958100A57966 /* EnemyStrategy2.cpp */,
+				A5056A4F1D1E97BF00A57966 /* EnemyStrategy3.hpp */,
+				A5056A4E1D1E97BF00A57966 /* EnemyStrategy3.cpp */,
+				A5056A521D1E9A6700A57966 /* EnemyStrategy4.hpp */,
+				A5056A511D1E9A6700A57966 /* EnemyStrategy4.cpp */,
+				A7FEA9441CB6ADEC0036ED36 /* Character.hpp */,
+				A7FEA9431CB6ADEC0036ED36 /* Character.cpp */,
+				A5F272F91CCFADFF005B26F3 /* MainCharacter.hpp */,
+				A5F272F81CCFADFF005B26F3 /* MainCharacter.cpp */,
+				A7FEA9471CB6AE160036ED36 /* Elf.hpp */,
+				A7FEA9461CB6AE160036ED36 /* Elf.cpp */,
+				A56810D51CC6288B00A92F4C /* Druid.hpp */,
+				A56810D41CC6288B00A92F4C /* Druid.cpp */,
+				A56810D81CC6291900A92F4C /* Paladin.hpp */,
+				A56810D71CC6291900A92F4C /* Paladin.cpp */,
+				A7FEA94D1CB6AE660036ED36 /* Monster.hpp */,
+				A7FEA94C1CB6AE660036ED36 /* Monster.cpp */,
+				A527A3D41CC7D16C00D849A3 /* MenuLoop.hpp */,
+				A54A71511D257DC300C1716E /* MenuLoop.cpp */,
+				A5F868461CE1F1D300691692 /* EndLoop.hpp */,
+				A54A71531D257E6500C1716E /* EndLoop.cpp */,
+				A7FEA94A1CB6AE3C0036ED36 /* TileMap.hpp */,
+				A7FEA9491CB6AE3C0036ED36 /* TileMap.cpp */,
+				A7FEA9351CB6AB850036ED36 /* Resources */,
+				A7FEA92E1CB6AB850036ED36 /* Supporting Files */,
+			);
+			path = "Roguemon  2.0";
+			sourceTree = "<group>";
+		};
+		A7FEA92E1CB6AB850036ED36 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A7FEA92F1CB6AB850036ED36 /* Roguemon  2.0-Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A7FEA9351CB6AB850036ED36 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7FEA92A1CB6AB850036ED36 /* Roguemon  2.0 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7FEA9401CB6AB850036ED36 /* Build configuration list for PBXNativeTarget "Roguemon  2.0" */;
+			buildPhases = (
+				A7FEA9261CB6AB850036ED36 /* Sources */,
+				A7FEA9271CB6AB850036ED36 /* Frameworks */,
+				A7FEA9281CB6AB850036ED36 /* Resources */,
+				A7FEA9291CB6AB850036ED36 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Roguemon  2.0";
+			productName = "Roguemon  2.0";
+			productReference = A7FEA92B1CB6AB850036ED36 /* Roguemon  2.0.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7FEA9221CB6AB850036ED36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = guidolippi;
+				TargetAttributes = {
+					A7FEA92A1CB6AB850036ED36 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = A7FEA9251CB6AB850036ED36 /* Build configuration list for PBXProject "Roguemon  2.0" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = A7FEA9211CB6AB850036ED36;
+			productRefGroup = A7FEA92C1CB6AB850036ED36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7FEA92A1CB6AB850036ED36 /* Roguemon  2.0 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7FEA9281CB6AB850036ED36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A7FEA9291CB6AB850036ED36 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# This shell script simply copies required SFML dylibs/frameworks into the application bundle frameworks folder.\n# If you're using static libraries (which is not recommended) you should remove this script from your project.\n\n# SETTINGS\nCMAKE_INSTALL_FRAMEWORK_PREFIX=\"/Library/Frameworks\"\nCMAKE_INSTALL_LIB_PREFIX=\"/usr/local/lib\"\nFRAMEWORKS_FULL_PATH=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n# Are we building a project that uses frameworks or dylibs?\ncase \"$SFML_BINARY_TYPE\" in\n    DYLIBS)\n        frameworks=\"false\"\n        ;;\n    *)\n        frameworks=\"true\"\n        ;;\nesac\n\n# Echoes to stderr\nerror () # $* message to display\n{\n    echo $* 1>&2\n    exit 2\n}\n\nassert () # $1 is a boolean, $2...N is an error message\n{\n    if [ $# -lt 2 ]\n    then\n        error \"Internal error in assert: not enough args\"\n    fi\n\n    if [ $1 -ne 0 ]\n    then\n        shift\n        error \"$*\"\n    fi\n}\n\nforce_remove () # $@ is some paths\n{\n    test $# -ge 1\n    assert $? \"force_remove() requires at least one parameter\"\n    rm -fr $@\n    assert $? \"couldn't remove $@\"\n}\n\ncopy () # $1 is a source, $2 is a destination\n{\n    test $# -eq 2\n    assert $? \"copy() requires two parameters\"\n    ditto \"$1\" \"$2\"\n    assert $? \"couldn't copy $1 to $2\"\n}\n\nrequire () # $1 is a SFML module like 'system' or 'audio'\n{\n    dest=\"$BUILT_PRODUCTS_DIR/$FRAMEWORKS_FOLDER_PATH/\"\n\n    if [ -z \"$1\" ]\n    then\n        error \"require() requires one parameter!\"\n    else\n        # clean potentially old stuff\n        force_remove \"$dest/libsfml-$1\"*\n        force_remove \"$dest/sfml-$1.framework\"\n\n        # copy SFML libraries\n        if [ \"$frameworks\" = \"true\" ]\n        then\n            source=\"$CMAKE_INSTALL_FRAMEWORK_PREFIX/sfml-$1.framework\"\n            target=\"sfml-$1.framework\"\n        elif [ \"$SFML_LINK_DYLIBS_SUFFIX\" = \"-d\" ]\n        then\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1-d.dylib\"\n            target=\"`readlink $source`\"\n        else\n            source=\"$CMAKE_INSTALL_LIB_PREFIX/libsfml-$1.dylib\"\n            target=\"`readlink $source`\"\n        fi\n\n        copy \"$source\" \"$dest/$target\"\n\n        # copy extra dependencies\n        if [ \"$1\" = \"audio\" ]\n        then\n            # copy \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\" frameworks too\n            for f in \"FLAC\" \"ogg\" \"vorbis\" \"vorbisenc\" \"vorbisfile\" \"OpenAL\"\n            do\n                copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/$f.framework\" \"$dest/$f.framework\"\n            done\n        elif [ \"$1\" = \"graphics\" ]\n        then\n            copy \"$CMAKE_INSTALL_FRAMEWORK_PREFIX/freetype.framework\" \"$dest/freetype.framework\"\n        fi\n    fi\n}\n\nif [ -n \"$SFML_SYSTEM\" ]\nthen\n    require \"system\"\nfi\n\nif [ -n \"$SFML_AUDIO\" ]\nthen\n    require \"audio\"\nfi\n\nif [ -n \"$SFML_NETWORK\" ]\nthen\n    require \"network\"\nfi\n\nif [ -n \"$SFML_WINDOW\" ]\nthen\n    require \"window\"\nfi\n\nif [ -n \"$SFML_GRAPHICS\" ]\nthen\n    require \"graphics\"\nfi\n\n                ";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7FEA9261CB6AB850036ED36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A5056A501D1E97BF00A57966 /* EnemyStrategy3.cpp in Sources */,
+				A515710E1D1DA46D00FAEBC7 /* AbstractStrategy.cpp in Sources */,
+				A54A71521D257DC300C1716E /* MenuLoop.cpp in Sources */,
+				A7FEA94B1CB6AE3C0036ED36 /* TileMap.cpp in Sources */,
+				A54A71501D257A2400C1716E /* BattleLoop.cpp in Sources */,
+				A7FEA9481CB6AE160036ED36 /* Elf.cpp in Sources */,
+				A56810D61CC6288B00A92F4C /* Druid.cpp in Sources */,
+				A5056A4D1D1E958100A57966 /* EnemyStrategy2.cpp in Sources */,
+				A7FEA94E1CB6AE660036ED36 /* Monster.cpp in Sources */,
+				A51571111D1DA4D400FAEBC7 /* EnemyStrategy.cpp in Sources */,
+				A5056A531D1E9A6700A57966 /* EnemyStrategy4.cpp in Sources */,
+				A7FEA9341CB6AB850036ED36 /* main.cpp in Sources */,
+				A5E980F71CCBD38900AABF3A /* Music.cpp in Sources */,
+				A5E980F41CCBB49F00AABF3A /* Map.cpp in Sources */,
+				A5F272FA1CCFADFF005B26F3 /* MainCharacter.cpp in Sources */,
+				A56810D91CC6291900A92F4C /* Paladin.cpp in Sources */,
+				A59744861CB8508300517644 /* CharacterFactory.cpp in Sources */,
+				A54A71541D257E6500C1716E /* EndLoop.cpp in Sources */,
+				A7FEA9451CB6ADEC0036ED36 /* Character.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		A7FEA93E1CB6AB850036ED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Debug;
+		};
+		A7FEA93F1CB6AB850036ED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_CXX_LANGUAGE_STANDARD = "c++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					/Library/Frameworks/,
+					"$(inherited)",
+				);
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include/,
+					"$(inherited)",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/usr/local/lib/,
+					"$(inherited)",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 10.7;
+				OTHER_LDFLAGS = (
+					"$(inherited)",
+					"$(SFML_SYSTEM)",
+					"$(SFML_WINDOW)",
+					"$(SFML_GRAPHICS)",
+					"$(SFML_AUDIO)",
+					"$(SFML_NETWORK)",
+				);
+				SFML_AUDIO = "$(SFML_LINK_PREFIX) sfml-audio$(SFML_LINK_SUFFIX)";
+				SFML_BINARY_TYPE = FRAMEWORKS;
+				SFML_GRAPHICS = "$(SFML_LINK_PREFIX) sfml-graphics$(SFML_LINK_SUFFIX)";
+				SFML_LINK_DYLIBS_PREFIX = "-l";
+				SFML_LINK_DYLIBS_SUFFIX = "";
+				SFML_LINK_FRAMEWORKS_PREFIX = "-framework";
+				SFML_LINK_FRAMEWORKS_SUFFIX = "";
+				SFML_LINK_PREFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_PREFIX)";
+				SFML_LINK_SUFFIX = "$(SFML_LINK_$(SFML_BINARY_TYPE)_SUFFIX)";
+				SFML_NETWORK = "$(SFML_LINK_PREFIX) sfml-network$(SFML_LINK_SUFFIX)";
+				SFML_SYSTEM = "$(SFML_LINK_PREFIX) sfml-system$(SFML_LINK_SUFFIX)";
+				SFML_WINDOW = "$(SFML_LINK_PREFIX) sfml-window$(SFML_LINK_SUFFIX)";
+				SUPPORTED_PLATFORMS = macosx;
+			};
+			name = Release;
+		};
+		A7FEA9411CB6AB850036ED36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roguemon  2.0/Roguemon  2.0-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guidolippi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7FEA9421CB6AB850036ED36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Roguemon  2.0/Roguemon  2.0-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.guidolippi.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7FEA9251CB6AB850036ED36 /* Build configuration list for PBXProject "Roguemon  2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FEA93E1CB6AB850036ED36 /* Debug */,
+				A7FEA93F1CB6AB850036ED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7FEA9401CB6AB850036ED36 /* Build configuration list for PBXNativeTarget "Roguemon  2.0" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7FEA9411CB6AB850036ED36 /* Debug */,
+				A7FEA9421CB6AB850036ED36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A7FEA9221CB6AB850036ED36 /* Project object */;
+}
