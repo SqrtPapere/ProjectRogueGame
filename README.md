@@ -2,9 +2,9 @@
 
 Requires following dependencies:
 * SFML
-* Mac OSX (it’s not a must but the “how to run” is based on it)
+* Mac OSX (it’s not a must but the “How to Run” is based on it)
 
-#How to Run
+#### How to Run
 
 Download and open the repository.
 
@@ -13,26 +13,24 @@ Open the Xcode Project: Roguemon  2.0.xcodeproj
 Press the Build button.
 
 Now in Roguemon 2.0 -> Products -> Roguemon 2.0app press “Show in Finder”
-Move directory “rasp-parkDetecting” to RaspberryPi and position it looking to the area to be monitored. 
-Move directory “pc-parkDetecting” to PC.
 
-Connect to it by SSH. 
+[![Screen_Shot_2017-10-23_at_17.57.21.png](https://s1.postimg.org/3ofla9bidb/Screen_Shot_2017-10-23_at_17.57.21.png)](https://postimg.org/image/3dsrh3wa7v/)
 
-+ run: python3 waitCoordRASP.py on RaspberryPI
-+ run: python3 selectCoordPC.py on PC
-+ Select target of interest
-+ press "c" key two times
-+ run: python3 yoloRaspArray.py on raspberry
-+ run: client.py on PC
+Paste there the content of [Media Roguemon 2.0 ](https://github.com/SqrtPapere/ProjectRogueGame/tree/master/Media%20Roguemon%202.0)
 
-## Results
-Every time a change of state happens, a pic will be taken:
+Now press again the Build button in Xcode.
 
-[![4.png](https://s26.postimg.org/nahhmzm2d/Park0full_at_Sat_Jul_8_15_02_18_2017.jpg)](http://postimg.org/image/nahhmzm2d/)[![2.png](https://s26.postimg.org/8d90lz8tx/Park0empty_at_Sat_Jul_8_14_19_56_2017.jpg)](http://postimg.org/image/8d90lz8tx/)[![3.png](https://s26.postimg.org/6b8j7qaut/Park0full_at_Sat_Jul_8_11_53_17_2017.jpg)](http://postimg.org/image/6b8j7qaut/)[![1.png](https://s26.postimg.org/qes5js2ut/Park0empty_at_Sat_Jul_8_11_51_37_2017.jpg)](http://postimg.org/image/qes5js2ut/)
+### GamePlay
+
+[![Screen_Shot_2017-10-23_at_17.49.18.png](https://s1.postimg.org/2jo30i3hv3/Screen_Shot_2017-10-23_at_17.49.18.png)](https://postimg.org/image/6s3aabtqnf/)
+
+[![Screen_Shot_2017-10-23_at_17.49.33.png](https://s1.postimg.org/5pgcdm6rxb/Screen_Shot_2017-10-23_at_17.49.33.png)](https://postimg.org/image/91z27znc9n/)
+
+[![Screen_Shot_2017-10-23_at_17.49.52.png](https://s1.postimg.org/1rnywy6win/Screen_Shot_2017-10-23_at_17.49.52.png)](https://postimg.org/image/8uvuckcc2j/)
+
+[![Screen_Shot_2017-10-23_at_17.50.30.png](https://s1.postimg.org/6lqv528vdr/Screen_Shot_2017-10-23_at_17.50.30.png)](https://postimg.org/image/1hf6fs8y57/)
+
 
 ## Contributors
-Developed by [Francesco Pegoraro](https://github.com/SqrtPapere) and Daniele Giacomelli
+Developed by [Francesco Pegoraro](https://github.com/SqrtPapere) and [Guido Lippi](https://github.com/guidolippi94)
 
-## YOLO 
-
-Joseph Redmon. Darknet: Open Source Neural Networks in C, 2013–2016. http://pjreddie.com/darknet/.
