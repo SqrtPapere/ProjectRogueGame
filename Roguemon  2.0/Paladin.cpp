@@ -5,9 +5,10 @@
 #include <SFML/Graphics.hpp>
 
 #include "Paladin.hpp"
+#include "ResourcePath.hpp"
 
 Paladin::Paladin(int x, int y, int id, int life, int atk , std::string addr):MainCharacter(x, y, id, life, atk){
-    if(!playerTexture.loadFromFile("Paladin.png"))//carico l immag del persongg
+    if(!playerTexture.loadFromFile(resourcePath()+"Paladin.png"))//carico l immag del persongg
         std::cout<<"Paladin not found"<<std::endl;
     playersprite.setTexture(playerTexture);
     playersprite.setPosition(32*position.y,32*position.x);

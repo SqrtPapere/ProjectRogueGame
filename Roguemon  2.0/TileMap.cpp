@@ -2,12 +2,13 @@
 #include <stdio.h>
 
 #include "TileMap.hpp"
+#include "ResourcePath.hpp"
 
 
 bool TileMap::load(sf::Vector2u tileSize, const int* tiles, unsigned int width, unsigned int height)
 {
     // load the tileset texture
-    if (!m_tileset.loadFromFile("tileset.png"))
+    if (!m_tileset.loadFromFile(resourcePath()+"tileset.png"))
         return false;
     
     // resize the vertex array to fit the level size

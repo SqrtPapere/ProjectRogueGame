@@ -5,9 +5,11 @@
 
 #include "Monster.hpp"
 #include "Elf.hpp"
+#include "ResourcePath.hpp"
+
 
 Monster::Monster(int x, int y, int id, int life, int atk , std::string addr):Character(x, y, id, life, atk){
-    if(!playerTexture.loadFromFile(addr))//carico l immag del persongg
+    if(!playerTexture.loadFromFile(resourcePath() + addr))//carico l immag del persongg
         std::cout<<addr<<" not found"<<std::endl;
     playersprite.setTexture(playerTexture);
     playersprite.setPosition(32*position.y,32*position.x);

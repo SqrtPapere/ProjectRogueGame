@@ -2,9 +2,11 @@
 #include <unistd.h>
 #include <SFML/Graphics.hpp>
 #include "Elf.hpp"
+#include "ResourcePath.hpp"
+
 
 Elf::Elf(int x, int y, int id, int life, int atk, std::string addr):MainCharacter(x, y, id, life, atk){
-    if(!playerTexture.loadFromFile("Elf.png"))//carico l immag del persongg
+    if(!playerTexture.loadFromFile(resourcePath() +"Elf.png"))//carico l immag del persongg
         std::cout<<"Elf not found"<<std::endl;
     playersprite.setTexture(playerTexture);
     playersprite.setPosition(32*position.y,32*position.x);

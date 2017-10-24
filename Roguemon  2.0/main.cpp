@@ -6,6 +6,8 @@
 #include <stdexcept>
 #include <cmath>
 
+#include <fstream>
+
 #include "CharacterFactory.hpp"
 #include "Monster.hpp"
 #include "TileMap.hpp"
@@ -17,19 +19,24 @@
 #include "EnemyStrategy3.hpp"
 #include "EnemyStrategy4.hpp"
 
+
 #include "Constants.hpp"
 //per observer
 #include "Map.hpp"
 #include "Maps.hpp"
  
+#include "ResourcePath.hpp"
 
 
 
-int main()
+int main(int, char const**)
 {
+//    std::ofstream ofs ("test.txt",std::ofstream::out);
+//    ofs<< "sono qui";
+//    ofs.close();
     //icon
     sf::Image icon;
-    if (!icon.loadFromFile("icon.png")) {
+    if (!icon.loadFromFile(resourcePath() + "icon.png")) {
         return EXIT_FAILURE;
     }
 

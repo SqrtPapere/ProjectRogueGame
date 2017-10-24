@@ -21,6 +21,7 @@
 #include <stdio.h>
 #include <cmath>
 #include <stdexcept>
+#include "ResourcePath.hpp"
 
 
 
@@ -55,7 +56,7 @@ void BattleLoop(std::vector<Character*> *chrt, int ID){
     recte.setPosition(20, 10);
     
     sf::Font font;
-    if (!font.loadFromFile("LeagueGothic.otf"))
+    if (!font.loadFromFile(resourcePath() + "LeagueGothic.otf"))
     {
         std::cout<< "failed to open font"<<std::endl;
     }
@@ -79,19 +80,19 @@ void BattleLoop(std::vector<Character*> *chrt, int ID){
     enemylife.setString("hp: " + std::to_string(enemy->getLife()));
     
     std::string playerpng = player->getType() + "battle.png";
-    if(!playerTexture.loadFromFile(playerpng))
+    if(!playerTexture.loadFromFile(resourcePath() + playerpng))
         std::cout<<"Error, could not load "<<playerpng<<std::endl;
     playerSprite.setTexture(playerTexture);
     playerSprite.setTextureRect(sf::IntRect(0,0,110,128));
     playerSprite.setPosition(32,128);
     
     std::string enemypng = std::to_string(enemy->getId()) + ".png";//prendo l'id del mostro perchè la frontalsprite del mostro si chiama ID.png
-    if(!enemyTexture.loadFromFile(enemypng))
+    if(!enemyTexture.loadFromFile(resourcePath() +enemypng))
         std::cout<<"Error, could not load  "<<enemypng<<std::endl;
     enemySprite.setTexture(enemyTexture);
     enemySprite.setPosition(32*10,50);
     
-    if(!battleTexture.loadFromFile("battlebackground.png"))
+    if(!battleTexture.loadFromFile(resourcePath() +"battlebackground.png"))
         std::cout<<"Error, could not load battlebackground texture"<<std::endl;
     battleSprite.setTexture(battleTexture);
     battleSprite.setScale(2.2, 2.4);

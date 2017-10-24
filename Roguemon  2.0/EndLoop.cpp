@@ -2,6 +2,7 @@
 
 #include "EndLoop.hpp"
 
+#include "ResourcePath.hpp"
 
 
 void EndLoop(std::vector<Character*> chrt){
@@ -13,7 +14,7 @@ void EndLoop(std::vector<Character*> chrt){
     
     //Font
     sf::Font font;
-    if (!font.loadFromFile("Lobster_1.3.otf"))
+    if (!font.loadFromFile(resourcePath()+"Lobster_1.3.otf"))
     {
         std::cout<< "failed to open font"<<std::endl;
     }

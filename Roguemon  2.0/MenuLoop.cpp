@@ -8,6 +8,7 @@
 
 #include <stdio.h>
 #include "MenuLoop.hpp"
+#include "ResourcePath.hpp"
 
 
 int MenuLoop(){
@@ -20,7 +21,7 @@ int MenuLoop(){
     
     //icon
     sf::Image icon;
-    if (!icon.loadFromFile("icon.png")) {
+    if (!icon.loadFromFile(resourcePath()+"icon.png")) {
         return EXIT_FAILURE;
     }
     window1.setIcon(icon.getSize().x, icon.getSize().y, icon.getPixelsPtr());
@@ -33,7 +34,7 @@ int MenuLoop(){
     
     //Font
     sf::Font font;
-    if (!font.loadFromFile("Lobster_1.3.otf"))
+    if (!font.loadFromFile(resourcePath()+"Lobster_1.3.otf"))
     {
         std::cout<< "failed to open font"<<std::endl;
     }
@@ -85,19 +86,19 @@ int MenuLoop(){
     sf::Texture elfTexture, druidTexture, paladinTexture;
     sf::Sprite elfSprite, druidSprite, paladinSprite;
     
-    if(!elfTexture.loadFromFile("Elf.png"))
+    if(!elfTexture.loadFromFile(resourcePath()+"Elf.png"))
         std::cout<<"Error, could not load elf texture"<<std::endl;
     elfSprite.setTexture(elfTexture);
     elfSprite.setTextureRect(sf::IntRect(0,64,32,32));
     elfSprite.setPosition(32*3,100);
     
-    if(!druidTexture.loadFromFile("Druid.png"))
+    if(!druidTexture.loadFromFile(resourcePath()+"Druid.png"))
         std::cout<<"Error, could not load druid texture"<<std::endl;
     druidSprite.setTexture(druidTexture);
     druidSprite.setTextureRect(sf::IntRect(0,32,32,32));
     druidSprite.setPosition(32*7,100);
     
-    if(!paladinTexture.loadFromFile("Paladin.png"))
+    if(!paladinTexture.loadFromFile(resourcePath()+"Paladin.png"))
         std::cout<<"Error, could not load paladin texture"<<std::endl;
     paladinSprite.setTexture(paladinTexture);
     paladinSprite.setTextureRect(sf::IntRect(0,32,32,32));

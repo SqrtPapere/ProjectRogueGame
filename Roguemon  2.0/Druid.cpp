@@ -5,10 +5,11 @@
 #include <SFML/Graphics.hpp>
 
 #include "Druid.hpp"
+#include "ResourcePath.hpp"
 
 
 Druid::Druid(int x, int y, int id, int life, int atk, std::string addr):MainCharacter(x, y, id, life, atk){
-    if(!playerTexture.loadFromFile("Druid.png"))//carico l immag del persongg
+    if(!playerTexture.loadFromFile(resourcePath() + "Druid.png"))//carico l immag del persongg
         std::cout<<"Druid not found"<<std::endl;
     playersprite.setTexture(playerTexture);
     playersprite.setPosition(32*position.y,32*position.y);
