@@ -8,7 +8,7 @@ Requires following dependencies:
 
 Download and open the repository.
 
-Open the Xcode Project: Roguemon  2.0.xcodeproj
+Open the Xcode Project: `Roguemon  2.0.xcodeproj`
 
 Press the Build button.
 
