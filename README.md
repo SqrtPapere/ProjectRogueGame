@@ -12,14 +12,6 @@ Open the Xcode Project: Roguemon  2.0.xcodeproj
 
 Press the Build button.
 
-Now in Roguemon 2.0 -> Products -> Roguemon 2.0app right click and press “Show in Finder”
-
-[![Screen_Shot_2017-10-23_at_17.57.21.png](https://s1.postimg.org/3ofla9bidb/Screen_Shot_2017-10-23_at_17.57.21.png)](https://postimg.org/image/3dsrh3wa7v/)
-
-Paste there the content of [Media Roguemon 2.0 ](https://github.com/SqrtPapere/ProjectRogueGame/tree/master/Media%20Roguemon%202.0)
-
-Now press again the Build button in Xcode.
-
 ### GamePlay
 
 [![Screen_Shot_2017-10-23_at_17.49.18.png](https://s1.postimg.org/2jo30i3hv3/Screen_Shot_2017-10-23_at_17.49.18.png)](https://postimg.org/image/6s3aabtqnf/)
