@@ -14,13 +14,14 @@ Press the Build button.
 
 ### GamePlay
 
-[![Screen_Shot_2017-10-23_at_17.49.18.png](https://s1.postimg.org/2jo30i3hv3/Screen_Shot_2017-10-23_at_17.49.18.png)](https://postimg.org/image/6s3aabtqnf/)
+![](https://github.com/SqrtPapere/ProjectRogueGame/blob/master/Images/1.png)
 
-[![Screen_Shot_2017-10-23_at_17.49.33.png](https://s1.postimg.org/5pgcdm6rxb/Screen_Shot_2017-10-23_at_17.49.33.png)](https://postimg.org/image/91z27znc9n/)
+![](https://github.com/SqrtPapere/ProjectRogueGame/blob/master/Images/2.png)
 
-[![Screen_Shot_2017-10-23_at_17.49.52.png](https://s1.postimg.org/1rnywy6win/Screen_Shot_2017-10-23_at_17.49.52.png)](https://postimg.org/image/8uvuckcc2j/)
+![](https://github.com/SqrtPapere/ProjectRogueGame/blob/master/Images/3.png)
 
-[![Screen_Shot_2017-10-23_at_17.50.30.png](https://s1.postimg.org/6lqv528vdr/Screen_Shot_2017-10-23_at_17.50.30.png)](https://postimg.org/image/1hf6fs8y57/)
+![](https://github.com/SqrtPapere/ProjectRogueGame/blob/master/Images/4.png)
+
 
 
 ## Contributors
